@@ -1,200 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh;
-  margin: 0;
-  padding: 70px 24px;
-  font-family: 'DM Sans', sans-serif;
-  background:
-    radial-gradient(ellipse at top, #286449 0%, #174b35 45%, #0b2c20 100%);
-  color: #fff8e9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main {
-  width: 100%;
-  max-width: 900px;
-  text-align: center;
-}
-
-.title {
-  margin: 0;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(2.8rem, 7vw, 4.5rem);
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: #f4dfac;
-}
-
-.subtitle {
-  margin: 10px 0 55px;
-  color: #c0d2c3;
-  font-size: 0.85rem;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#playing-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  perspective: 1000px;
-}
-
-.card {
-  position: relative;
-  width: 180px;
-  height: 260px;
-  flex-shrink: 0;
-  overflow: hidden;
-  background: linear-gradient(135deg, #fffef8, #f3ead6);
-  border: 2px solid #d5b66f;
-  border-radius: 14px;
-  box-shadow:
-    0 18px 30px rgba(0, 0, 0, 0.25),
-    0 4px 8px rgba(0, 0, 0, 0.15),
-    inset 0 0 0 5px #fffdf4,
-    inset 0 0 0 6px #e6d4a8;
-  color: #b52635;
-  transition:
-    transform 0.35s ease,
-    box-shadow 0.35s ease;
-}
-
-.card::before {
-  content: '';
-  position: absolute;
-  inset: 11px;
-  border: 1px solid rgba(191, 157, 88, 0.3);
-  border-radius: 7px;
-  pointer-events: none;
-}
-
-.card:hover {
-  transform: translateY(-12px) rotateY(-4deg);
-  box-shadow:
-    0 28px 40px rgba(0, 0, 0, 0.35),
-    0 0 22px rgba(222, 190, 117, 0.12);
-}
-
-.spades {
-  color: #202b29;
-}
-
-.diamonds {
-  color: #b52635;
-}
-
-.corner {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 0.9;
-}
-
-.corner .suit {
+body{
+  background-color: #174b35;
   font-family: Georgia, serif;
-  font-size: 23px;
-  margin-top: 4px;
+  margin: 0;
+  padding: 40px 20px;
+
+}
+.card{
+  width:100px;
+  height:125px;
+  display:flex;
+  justify-content:space-between;
+  background-color:#fffdf5;
+  border:2px solid #d4b779;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25); 
 }
 
-.top {
-  top: 21px;
-  left: 20px;
+#playing-cards{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
 }
 
-.bottom {
-  right: 20px;
-  bottom: 21px;
+.left{
+  align-self:flex-start;
+  font-size: 24px;
+}
+
+.right{
+  align-self:flex-end;
+  font-size:24px;
   transform: rotate(180deg);
 }
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: Georgia, serif;
-  font-size: 100px;
-  line-height: 1;
-  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+.middle{
+  align-self:center;
+  display:flex;
+  flex-direction:column;
+  font-size:70px;
 }
 
-.footer {
-  margin-top: 55px;
-  color: #d5b66f;
-  font-size: 1.4rem;
-  letter-spacing: 8px;
-  opacity: 0.8;
+.card:nth-child(1),
+.card:nth-child(3) {
+  color: #c62838;
 }
 
-@media (max-width: 600px) {
-  body {
-    padding: 45px 16px;
-  }
-
-  .subtitle {
-    margin-bottom: 35px;
-    font-size: 0.7rem;
-    letter-spacing: 2px;
-  }
-
-  #playing-cards {
-    gap: 18px;
-  }
-
-  .card {
-    width: 145px;
-    height: 215px;
-  }
-
-  .corner {
-    font-size: 27px;
-  }
-
-  .corner .suit {
-    font-size: 19px;
-  }
-
-  .top {
-    top: 18px;
-    left: 17px;
-  }
-
-  .bottom {
-    right: 17px;
-    bottom: 18px;
-  }
-
-  .middle {
-    font-size: 78px;
-  }
-
-  .footer {
-    margin-top: 40px;
-  }
+.card:nth-child(2) {
+  color: #222222;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .card {
-    transition: none;
-  }
-
-  .card:hover {
-    transform: none;
-  }
-}
