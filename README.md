@@ -1,51 +1,64 @@
-# 🃏 Playing Cards Page
+# 🃏 The Royal Deck — Playing Cards Page
 
-A playing cards web page built with **HTML5 and CSS3** as part of my [freeCodeCamp](https://www.freecodecamp.org/) coursework.
+An elegant playing cards webpage built with **HTML5 and CSS3** as part of my [freeCodeCamp](https://www.freecodecamp.org/) coursework and frontend development journey.
 
 ## 📌 Project Overview
 
-This project focuses on building a page of playing cards while practising HTML structure and CSS styling. It is part of my journey into front-end web development and building a portfolio for job applications.
+The Royal Deck combines classic playing card design with modern styling, featuring a forest-green background, gold accents, elegant typography, and interactive hover effects.
+
+## ✨ Features
+
+- 🎨 Elegant design with a green gradient background and gold accents.
+- 🃏 Custom playing cards featuring hearts, spades, and diamonds.
+- ✨ Smooth hover animations and CSS transitions.
+- 📱 Responsive layout for different screen sizes.
+- ♿ Semantic HTML and reduced-motion support.
 
 ## 🛠️ Technologies Used
 
-- **HTML5** — structures the web page and its content.
-- **CSS3** — styles the playing cards and controls their layout and appearance.
-- **Flexbox**
-- **CSS** positioning and transforms
+- **HTML5** — Page structure and semantic elements.
+- **CSS3** — Styling, gradients, shadows, and transitions.
+- **Flexbox** — Card layout and alignment.
+- **CSS Positioning & Transforms** — Card details and hover effects.
+- **Google Fonts** — Custom typography.
 
 ## 📚 Skills Practised
 
-- Writing and organising HTML.
-- Styling web elements with CSS.
-- Working with colours, borders, and spacing.
-- Keeping HTML and CSS in separate files.
+- Writing and organising semantic HTML.
+- Creating reusable CSS classes.
+- Working with colours, borders, spacing, and shadows.
+- Building responsive layouts with Flexbox and media queries.
+- Implementing hover effects and transitions.
+- Maintaining separate HTML and CSS files.
 
 ## 📁 Project Structure
 
-```text
-playing-cards-page/
-├── index.html
-├── styles.css
-└── README.md
-```
+    playing-cards-page/
+    ├── index.html
+    ├── styles.css
+    └── README.md
 
-## 🚀 How to Run the Project
+## 🚀 How to Run
 
-1. Download the project files from this repository.
-2. Keep `index.html` and `styles.css` in the same folder.
+1. Clone or download this repository.
+2. Ensure `index.html` and `styles.css` are in the same folder.
 3. Open `index.html` in your web browser.
+
+No installation or additional dependencies are required.
 
 ## 🎯 Project Goals
 
-This project helped me practise the foundations of front-end development through hands-on coding with freeCodeCamp. I am continuing to build projects to improve my skills and prepare for future web development opportunities.
+This project helped me strengthen my understanding of HTML and CSS through hands-on practice with freeCodeCamp. I am continuing to build projects, improve my frontend development skills, and develop a portfolio for future web development opportunities.
 
 ## 👤 Author
 
-**codebymuz**
+**codebymuz** — Aspiring Frontend Developer
 
-- [GitHub Profile](https://github.com/codebymuz)
-- [Project Repository](https://github.com/codebymuz/playing-cards-page)
+- **GitHub:** [@codebymuz](https://github.com/codebymuz)
+- **Repository:** [Playing Cards Page](https://github.com/codebymuz/playing-cards-page)
 
 ---
+
+*Designed with elegance. Built with precision.* ♠ ♥ ♣ ♦
 
 *Created as part of my freeCodeCamp learning journey.*
