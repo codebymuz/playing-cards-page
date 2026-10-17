@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Playing Cards</title>
   <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
-  <main id="playing-cards">
-    <div class="card">
-      <div class="left">A ♥</div>
-      <div class="middle">♥</div>
-      <div class="right">A ♥</div>
-    </div>
-     
-     
-    <div class="card">
-      <div class="left">K ♠</div>
-      <div class="middle">♥</div>
-      <div class="right">K ♠</div>
-    </div>
-     
-    <div class="card">
-      <div class="left">Q ♦</div>
-      <div class="middle">♥</div>
-      <div class="right">Q ♦</div>
-    </div>
-    
-      
+  <main>
+    <h1 class="title">The Royal Deck</h1>
+    <p class="subtitle">A little elegance in every hand</p>
+
+    <section id="playing-cards" aria-label="Playing cards">
+      <article class="card hearts" aria-label="Ace of Hearts">
+        <div class="corner top">
+          <span>A</span>
+          <span class="suit">♥</span>
+        </div>
+        <div class="middle">♥</div>
+        <div class="corner bottom">
+          <span>A</span>
+          <span class="suit">♥</span>
+        </div>
+      </article>
+
+      <article class="card spades" aria-label="King of Spades">
+        <div class="corner top">
+          <span>K</span>
+          <span class="suit">♠</span>
+        </div>
+        <div class="middle">♠</div>
+        <div class="corner bottom">
+          <span>K</span>
+          <span class="suit">♠</span>
+        </div>
+      </article>
+
+      <article class="card diamonds" aria-label="Queen of Diamonds">
+        <div class="corner top">
+          <span>Q</span>
+          <span class="suit">♦</span>
+        </div>
+        <div class="middle">♦</div>
+        <div class="corner bottom">
+          <span>Q</span>
+          <span class="suit">♦</span>
+        </div>
+      </article>
+    </section>
+
+    <p class="footer">♠ &nbsp; ♥ &nbsp; ♣ &nbsp; ♦</p>
   </main>
-
 </body>
-
 </html>
+
