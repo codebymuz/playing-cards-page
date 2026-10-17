@@ -10,6 +10,8 @@ This project focuses on building a page of playing cards while practising HTML s
 
 - **HTML5** — structures the web page and its content.
 - **CSS3** — styles the playing cards and controls their layout and appearance.
+- **Flexbox**
+- **CSS** positioning and transforms
 
 ## 📚 Skills Practised
 
