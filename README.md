@@ -1,44 +1,49 @@
-#🃏 Playing Cards Page
+# 🃏 Playing Cards Page
 
-A playing cards web page built with HTML5 and CSS3 as part of my freeCodeCamp coursework.
+A playing cards web page built with **HTML5 and CSS3** as part of my [freeCodeCamp](https://www.freecodecamp.org/) coursework.
 
-This project is part of my journey into front-end web development, where I am building practical projects to develop my coding skills and create a portfolio for future job opportunities.
+## 📌 Project Overview
 
-📌 Project Overview
+This project focuses on building a page of playing cards while practising HTML structure and CSS styling. It is part of my journey into front-end web development and building a portfolio for job applications.
 
-The goal of this project was to build a page displaying playing cards while practising HTML structure and CSS styling.
+## 🛠️ Technologies Used
 
-It gave me an opportunity to apply what I have learned about creating web page layouts and styling elements.
+- **HTML5** — structures the web page and its content.
+- **CSS3** — styles the playing cards and controls their layout and appearance.
 
-🛠️ Technologies Used
-HTML5 — used to structure the page and its content.
-CSS3 — used to style the playing cards and control the visual layout.
-📚 Skills Practised
-Writing and organising HTML.
-Styling elements with CSS.
-Working with colours, borders, and spacing.
-Separating HTML structure from CSS styling.
-Building a web page from a project brief.
-📁 Project Structure
+## 📚 Skills Practised
+
+- Writing and organising HTML.
+- Styling web elements with CSS.
+- Working with colours, borders, and spacing.
+- Keeping HTML and CSS in separate files.
+
+## 📁 Project Structure
+
+```text
 playing-cards-page/
 ├── index.html
 ├── styles.css
 └── README.md
+```
 
-🚀 How to View the Project
-Open this repository on GitHub.
-Download the project files using the Code menu.
-Extract the downloaded files if necessary.
-Open index.html in your web browser.
-🎯 Project Purpose
+## 🚀 How to Run the Project
 
-This project demonstrates my continued practice with HTML and CSS through freeCodeCamp. I am using hands-on projects to strengthen my front-end development foundations and prepare for future opportunities in web development.
+1. Download the project files from this repository.
+2. Keep `index.html` and `styles.css` in the same folder.
+3. Open `index.html` in your web browser.
 
-👤 Author
+## 🎯 Project Goals
 
-codebymuz
+This project helped me practise the foundations of front-end development through hands-on coding with freeCodeCamp. I am continuing to build projects to improve my skills and prepare for future web development opportunities.
 
-GitHub Profile
-Playing Cards Project Repository
+## 👤 Author
 
-Created as part of my freeCodeCamp learning journey.
+**codebymuz**
+
+- [GitHub Profile](https://github.com/codebymuz)
+- [Project Repository](https://github.com/codebymuz/playing-cards-page)
+
+---
+
+*Created as part of my freeCodeCamp learning journey.*
